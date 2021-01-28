@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Seletor de país</title>
+ </head>
+ <body> 
+    <h1>Veja a sua nacionalidade!!</h1>
+    Insira aqui o seu país de origem: <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="p">
+    <script>
+        function verificar(){
+            var p = document.querySelector("div#p")
+            var paiss = document.getElementById("pais")
+            if (paiss = Brasil){
+                p.innerHTML = "HUE HUE HUE BR tmj pae" 
+            }
+        }
+    </script>
+ </body>
+ </html>
